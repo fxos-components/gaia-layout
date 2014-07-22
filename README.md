@@ -1,4 +1,4 @@
-# &lt;gaia-layout&gt;
+# gaia layout
 
 ## Installation
 

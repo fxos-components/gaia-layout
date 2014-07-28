@@ -222,14 +222,18 @@ p {
   image-rendering: -moz-crisp-edges;
 }
 
-.gaia-list li button {
+.gaia-list li button,
+.gaia-list li .button {
   margin: 0;
 }
 
 .gaia-list li button + button,
 .gaia-list li p + button,
+.gaia-list li p + .button,
 .gaia-list li button + p,
-.gaia-list li label + button {
+.gaia-list li .button + p,
+.gaia-list li label + button,
+.gaia-list li label + .button {
   margin-top: 10px;
 }
 
